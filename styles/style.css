@@ -1,0 +1,147 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../assets/images/bg_textura.jpg");
+}
+
+.general-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.skills-container {
+    width: 30%;
+    padding: 10px;
+    background-color: #226a88;
+    color: #fff;
+}
+
+.image-container {
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.image-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid #60ABB2;
+}
+
+.skills {
+    padding: 30px;
+}
+
+.skills h2 {
+    color: #a9b578;
+}
+
+.skills ul {
+    padding: 30px;
+    list-style: none;
+}
+
+.skills ul li {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.skills ul li img {
+    width: 20%;
+    padding: 10px;
+}
+
+.skills p {
+    font-weight: 600;
+}
+
+.pages-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages-container a {
+    color: #fff;
+}
+
+.pages-container a:hover {
+    color: #a9b578;
+}
+
+.information-container {
+    width: 70%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.information-container h1 {
+    color: #226a88;
+    margin-top: 15px;
+}
+
+.information-container ul {
+    padding: 30px;
+}
+
+.contactMe-container,
+.hobbies-container {
+    padding: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.phone-container p {
+    display: flex;
+    align-items: center;
+}
+
+.phone-container img {
+    width: 22%;
+    padding: 10px;
+}
+
+.contactMe-container,
+.hobbies-container {
+    height: 90vh;
+    margin: 5vh;
+    background-color: #fff;
+}
+
+.information-container h2,
+.title-container h2 {
+    color: #a9b578;
+}
+
+.led-container,
+.decoration-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.led-container img  {
+    width: 350px;
+    height: auto;
+}
+
+.decoration-container img {
+    width: 250px;
+    height: auto;
+}
